@@ -1,0 +1,144 @@
+:root{
+
+    --Light-Cyan: hsl(193, 38%, 86%);
+    --Neon-Green: hsl(150, 100%, 66%);
+
+    --Grayish-Blue: hsl(217, 19%, 38%);
+    --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+    --Dark-Blue: hsl(218, 23%, 16%);
+   
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    background: hsl(218, 23%, 16%);
+}
+.wrapper{
+    max-width: 350px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+    background: hsl(217, 19%, 24%);;
+    
+}
+
+.header{
+    color: hsl(150, 100%, 66%);
+}
+
+.q-id{
+    opacity: .5;
+}
+ .divider{
+    width: 100%;
+    margin-block: 5px;
+}
+
+
+.quoted{
+    display: flex;
+   
+}
+.quote{
+    Font-size : 28px;
+    color: white
+}
+
+.left-comma{
+    display: flex;
+    align-items: flex-start;
+}
+.right-comma{
+    display: flex;
+    align-items: flex-end;
+}
+.author{
+    display: flex;
+    float: inline-end;
+    color: hsl(193, 38%, 86%);;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-media{
+    display: flex;
+    align-items: center; 
+}
+
+.social-media > div{
+    cursor: pointer;
+    margin-right: 12px;
+}
+
+button{
+   border: none;
+   padding: 3px;
+   border-radius: 5px;
+   text-align: center;
+   font-size: 10px;
+   background: hsl(150, 100%, 66%);
+   color: hsl(218, 23%, 16%); 
+}
+
+button:active{
+    box-shadow: 0px 0px 20px hsl(150, 100%, 66%);;
+}
+.loading{
+   opacity: 0.4;
+   pointer-events: none; 
+}
+
+.author{
+    margin-block: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sound, .copy, .twitter{
+    display: flex;
+    background: transparent;
+    border: 1px solid ;
+    padding: 8px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sound:active{
+    background: hsl(150, 100%, 66%);;
+}
+.sound:hover{
+    background: hsl(150, 100%, 66%);;
+}
+.copy:active{
+    background: hsl(150, 100%, 66%);;
+}
+.copy:hover{
+    background: hsl(150, 100%, 66%);;
+}
+.twitter:active{
+    background: hsl(150, 100%, 66%);;
+}
+.twitter:hover{
+    background: hsl(150, 100%, 66%);;
+}
+
+/*  */
